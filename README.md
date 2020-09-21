@@ -12,7 +12,7 @@ date: "9/19/2020"
 
 Ce tutoriel fournit des recommandations pour appliquer l'analyse discriminante en composantes principales (DACP) sur un vaste ensemble de données génomiques telles que les données issues de RAD-sequencing. 
 
-L'DACP agit comme une analyse en composantes principales (ACP) et accordera plus d'importance aux diff??rences entre groupes qu'aux diff??rences intragroupes. Les groupes peuvent peuvent être spécifiés au début de l'analyse de manière aveugle (ci-dessous nommée DACP sans a priori) ou sur la base d'informations d'échantillonnage (DACP avec a priori). 
+L'DACP agit comme une analyse en composantes principales (ACP) et accordera plus d'importance aux différences entre groupes qu'aux diff??rences intragroupes. Les groupes peuvent peuvent être spécifiés au début de l'analyse de manière aveugle (ci-dessous nommée DACP sans a priori) ou sur la base d'informations d'échantillonnage (DACP avec a priori). 
 
 L'analyse DACP est particulièrement pertinente dans le cas des espèces marines, où l'on constate souvent une faible différenciation génétique qui empèche de révéler des différenecs génétiques subtiles mais significatives.
 
