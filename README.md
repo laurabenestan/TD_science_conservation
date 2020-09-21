@@ -5,9 +5,7 @@ TD pour l'UE Science de la conservation
 title: "Script-dapc"
 author: "Laura Benestan"
 date: "9/19/2020"
-output:
-  pdf_document: default
-  html_document: default
+
 ---
 
 # Analyse Discriminante en Composantes Principales (DACP)
