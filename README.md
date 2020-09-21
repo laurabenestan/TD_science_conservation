@@ -210,19 +210,19 @@ Lisez la documentation pour améliorer votre graphique.
 
 Faire un graphique ggplot de ces résutats en considérant les populations et les espèces.
 
-## 6 - Represent the genetic clusters observed on a sampling map
+## 6 - Faire un graphique ggplot de ces résutats en considérant les populations et les espèces.
 
 Faire correspondre les coordonnées géographiques de chaque individu à son groupe génétique inféré afin de voir s'il y a un regroupement par rapport au lieu d'échantillonnage.
 ```{r}
 kmean_geo <- merge(data_kmeans, pop, by="INDIVIDUALS")
 ```
 
-Explorez les donnees geographiques.
+Explorez les données géographiques.
 ```{r}
 summary(pop)
 ```
 
-Download the background data required for creating a map.
+Téléchargez les données de base nécessaires à la création d'une carte.
 ```{r}
 wH <- map_data("worldHires", xlim=c(-72,-45), ylim=c(40,70)) # subset polygons surrounding 
 ```
@@ -232,7 +232,7 @@ kmean_geo$Latitude <-as.numeric(as.character(kmean_geo$Latitude))
 kmean_geo$Longitude<-as.numeric(as.character(kmean_geo$Longitude))
 ```
 
-Make a map using `ggplot` and `sf` package.
+Faire une carte en utilisant le package `ggplot` et `sf`.
 ```{r}
 x_title="Longitude"
 y_title="Latitude"
